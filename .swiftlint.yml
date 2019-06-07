@@ -1,6 +1,7 @@
 disabled_rules:
   - line_length
   - type_name
+  - weak_delegate
 
 force_cast: warning
 
@@ -13,5 +14,5 @@ type_body_length:
   - 720
 
 file_length:
-  - 787
-  - 787
+  - 800
+  - 800
