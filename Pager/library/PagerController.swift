@@ -279,7 +279,7 @@ open class PagerController: UIViewController, UIPageViewControllerDataSource, UI
 		
 		let rect: CGRect = CGRect(x: 0, y: underlineStroke.frame.maxY - 0.5, width: (self.tabsView!.frame.width * 2), height: 0.5)
         	let bottomLine = UIView(frame: rect)
-        	bottomLine.backgroundColor = UIColor.purple
+        	bottomLine.backgroundColor = UIColor.lightGray
         	self.tabsView!.addSubview(bottomLine)
 
 
